@@ -233,7 +233,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _helper_add_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helper/add.js */ \"./src/helper/add.js\");\n/* harmony import */ var _add_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./add.js */ \"./src/add.js\");\n\n\n\n\n__webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./minus.js */ \"./src/minus.js\")).then(({default:minus}) => {\n  console.log(minus(4,1));\n})\n\nconst b = Object(_add_js__WEBPACK_IMPORTED_MODULE_1__[\"add1\"])(1,1);\n\nconst c = Object(_helper_add_js__WEBPACK_IMPORTED_MODULE_0__[\"multiply\"])(1,2);\n\nconsole.log(b,c);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _helper_add_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helper/add.js */ \"./src/helper/add.js\");\n/* harmony import */ var _add_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./add.js */ \"./src/add.js\");\n\n\n\n\n__webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./minus.js */ \"./src/minus.js\")).then(({default:minus}) => {\n  myLog(minus(4,1));\n})\n\nconst b = Object(_add_js__WEBPACK_IMPORTED_MODULE_1__[\"add1\"])(1,1);\n\nconst c = Object(_helper_add_js__WEBPACK_IMPORTED_MODULE_0__[\"multiply\"])(1,2);\n\nmyLog(b,c);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

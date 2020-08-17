@@ -1,0 +1,1733 @@
+chunk0: Chunk {
+  id: 0,
+  ids: [ 0 ],
+  debugId: 1001,
+  name: null,
+  preventIntegration: false,
+  entryModule: undefined,
+  _modules:
+   SortableSet [Set] {
+     NormalModule {
+       dependencies: [Array],
+       blocks: [],
+       variables: [],
+       type: 'javascript/auto',
+       context: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src',
+       debugId: 1002,
+       hash: '9621e63ba1cdfb8fa6f8402f92599c47',
+       renderedHash: '9621e63ba1cdfb8fa6f8',
+       resolveOptions: {},
+       factoryMeta: {},
+       warnings: [],
+       errors: [],
+       buildMeta: [Object],
+       buildInfo: [Object],
+       reasons: [Array],
+       _chunks: [SortableSet],
+       id: './src/minus.js',
+       index: 3,
+       index2: 3,
+       depth: 1,
+       issuer: [NormalModule],
+       profile: undefined,
+       prefetched: false,
+       built: true,
+       used: null,
+       usedExports: null,
+       optimizationBailout: [],
+       _rewriteChunkInReasons: undefined,
+       useSourceMap: false,
+       _source: [OriginalSource],
+       request:
+        'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\minus.js',
+       userRequest: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\minus.js',
+       rawRequest: './minus.js',
+       binary: false,
+       parser: [Parser],
+       generator: JavascriptGenerator {},
+       resource: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\minus.js',
+       matchResource: undefined,
+       loaders: [Array],
+       error: null,
+       _sourceSize: null,
+       _buildHash: '627c6d72eaf2a587f5f4608cc4a14c63',
+       buildTimestamp: 1597215474818,
+       _cachedSources: [Map],
+       lineToLine: false,
+       _lastSuccessfulBuildMeta: [Object],
+       _ast: null },
+     _sortFn: [Function: sortByIdentifier],
+     _lastActiveSortFn: null,
+     _cache: Map { [Function: getArray] => [Array] },
+     _cacheOrderIndependent: undefined },
+  filenameTemplate: undefined,
+  _groups:
+   SortableSet [Set] {
+     ChunkGroup {
+       groupDebugId: 5001,
+       options: [Object],
+       _children: [SortableSet],
+       _parents: [SortableSet],
+       _blocks: [SortableSet],
+       chunks: [Array],
+       origins: [Array],
+       _moduleIndices: [Map],
+       _moduleIndices2: [Map] },
+     _sortFn: [Function: sortChunkGroupById],
+     _lastActiveSortFn: null,
+     _cache: undefined,
+     _cacheOrderIndependent: undefined },
+  files: [ '0.bundle.js' ],
+  rendered: true,
+  hash: '5bc63ef69b4d7c9c199ebb87b7d88785',
+  contentHash:
+   [Object: null prototype] { javascript: 'ddd027e8db6a93ebecac' },
+  renderedHash: '5bc63ef69b4d7c9c199e',
+  chunkReason: undefined,
+  extraAsync: false,
+  removedModules: undefined }
+chunk0-module0: NormalModule {
+  dependencies:
+   [ HarmonyCompatibilityDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [Object],
+       originModule: [Circular] },
+     HarmonyInitDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [Object],
+       originModule: [Circular] },
+     HarmonyExportSpecifierDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       originModule: [Circular],
+       id: 'minus',
+       name: 'default' },
+     HarmonyExportHeaderDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       range: [Array],
+       rangeStatement: [Array] } ],
+  blocks: [],
+  variables: [],
+  type: 'javascript/auto',
+  context: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src',
+  debugId: 1002,
+  hash: '9621e63ba1cdfb8fa6f8402f92599c47',
+  renderedHash: '9621e63ba1cdfb8fa6f8',
+  resolveOptions: {},
+  factoryMeta: {},
+  warnings: [],
+  errors: [],
+  buildMeta: { exportsType: 'namespace', providedExports: [ 'default' ] },
+  buildInfo:
+   { cacheable: true,
+     fileDependencies:
+      Set { 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\minus.js' },
+     contextDependencies: Set {},
+     assets: undefined,
+     assetsInfo: undefined,
+     strict: true,
+     exportsArgument: '__webpack_exports__',
+     temporaryProvidedExports: false },
+  reasons:
+   [ ModuleReason {
+       module: [NormalModule],
+       dependency: [ImportDependency],
+       explanation: undefined,
+       _chunks: null } ],
+  _chunks:
+   SortableSet [Set] {
+     Chunk {
+       id: 0,
+       ids: [Array],
+       debugId: 1001,
+       name: null,
+       preventIntegration: false,
+       entryModule: undefined,
+       _modules: [SortableSet],
+       filenameTemplate: undefined,
+       _groups: [SortableSet],
+       files: [Array],
+       rendered: true,
+       hash: '5bc63ef69b4d7c9c199ebb87b7d88785',
+       contentHash: [Object],
+       renderedHash: '5bc63ef69b4d7c9c199e',
+       chunkReason: undefined,
+       extraAsync: false,
+       removedModules: undefined },
+     _sortFn: [Function: sortById],
+     _lastActiveSortFn: null,
+     _cache: undefined,
+     _cacheOrderIndependent: undefined },
+  id: './src/minus.js',
+  index: 3,
+  index2: 3,
+  depth: 1,
+  issuer:
+   NormalModule {
+     dependencies:
+      [ [HarmonyCompatibilityDependency],
+        [HarmonyInitDependency],
+        [ConstDependency],
+        [HarmonyImportSideEffectDependency],
+        [ConstDependency],
+        [HarmonyImportSideEffectDependency],
+        [HarmonyImportSpecifierDependency],
+        [HarmonyImportSpecifierDependency] ],
+     blocks: [ [ImportDependenciesBlock] ],
+     variables: [],
+     type: 'javascript/auto',
+     context: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src',
+     debugId: 1000,
+     hash: 'b41a5d4403abee46f2b23adb6a20e823',
+     renderedHash: 'b41a5d4403abee46f2b2',
+     resolveOptions: {},
+     factoryMeta: {},
+     warnings: [],
+     errors: [],
+     buildMeta: { exportsType: 'namespace', providedExports: [] },
+     buildInfo:
+      { cacheable: true,
+        fileDependencies: [Set],
+        contextDependencies: Set {},
+        assets: undefined,
+        assetsInfo: undefined,
+        strict: true,
+        exportsArgument: '__webpack_exports__',
+        temporaryProvidedExports: false },
+     reasons: [ [ModuleReason] ],
+     _chunks:
+      SortableSet [Set] {
+        [Chunk],
+        _sortFn: [Function: sortById],
+        _lastActiveSortFn: null,
+        _cache: undefined,
+        _cacheOrderIndependent: undefined },
+     id: './src/index.js',
+     index: 0,
+     index2: 2,
+     depth: 0,
+     issuer: null,
+     profile: undefined,
+     prefetched: false,
+     built: true,
+     used: null,
+     usedExports: null,
+     optimizationBailout: [],
+     _rewriteChunkInReasons: undefined,
+     useSourceMap: false,
+     _source:
+      OriginalSource {
+        _value:
+         "import {multiply} from './helper/add.js';\n\nimport {add1} from './add.js';\n\nimport('./minus.js').then(({default:minus}) => {\n  myLog(minus(4,1));\n})\n\nconst b = add1(1,1);\n\nconst c = multiply(1,2);\n\nmyLog(b,c);",
+        _name:
+         'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js' },
+     request:
+      'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+     userRequest: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+     rawRequest: './src/index.js',
+     binary: false,
+     parser:
+      Parser {
+        _pluginCompat: [SyncBailHook],
+        hooks: [Object],
+        options: {},
+        sourceType: 'auto',
+        scope: undefined,
+        state: undefined,
+        comments: undefined },
+     generator: JavascriptGenerator {},
+     resource: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+     matchResource: undefined,
+     loaders: [ [Object] ],
+     error: null,
+     _sourceSize: null,
+     _buildHash: '7283ca50d351f248edb831436502761a',
+     buildTimestamp: 1597215474761,
+     _cachedSources: Map { 'javascript' => [Object] },
+     lineToLine: false,
+     _lastSuccessfulBuildMeta: { exportsType: 'namespace', providedExports: [] },
+     _ast: null },
+  profile: undefined,
+  prefetched: false,
+  built: true,
+  used: null,
+  usedExports: null,
+  optimizationBailout: [],
+  _rewriteChunkInReasons: undefined,
+  useSourceMap: false,
+  _source:
+   OriginalSource {
+     _value: 'export default function minus(a, b) {\n  return a - b;\n}',
+     _name:
+      'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\minus.js' },
+  request:
+   'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\minus.js',
+  userRequest: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\minus.js',
+  rawRequest: './minus.js',
+  binary: false,
+  parser:
+   Parser {
+     _pluginCompat:
+      SyncBailHook {
+        _args: [Array],
+        taps: [Array],
+        interceptors: [],
+        call: [Function: lazyCompileHook],
+        promise: [Function: lazyCompileHook],
+        callAsync: [Function: lazyCompileHook],
+        _x: undefined },
+     hooks:
+      { evaluateTypeof: [HookMap],
+        evaluate: [HookMap],
+        evaluateIdentifier: [HookMap],
+        evaluateDefinedIdentifier: [HookMap],
+        evaluateCallExpressionMember: [HookMap],
+        statement: [SyncBailHook],
+        statementIf: [SyncBailHook],
+        label: [HookMap],
+        import: [SyncBailHook],
+        importSpecifier: [SyncBailHook],
+        export: [SyncBailHook],
+        exportImport: [SyncBailHook],
+        exportDeclaration: [SyncBailHook],
+        exportExpression: [SyncBailHook],
+        exportSpecifier: [SyncBailHook],
+        exportImportSpecifier: [SyncBailHook],
+        varDeclaration: [HookMap],
+        varDeclarationLet: [HookMap],
+        varDeclarationConst: [HookMap],
+        varDeclarationVar: [HookMap],
+        canRename: [HookMap],
+        rename: [HookMap],
+        assigned: [HookMap],
+        assign: [HookMap],
+        typeof: [HookMap],
+        importCall: [SyncBailHook],
+        call: [HookMap],
+        callAnyMember: [HookMap],
+        new: [HookMap],
+        expression: [HookMap],
+        expressionAnyMember: [HookMap],
+        expressionConditionalOperator: [SyncBailHook],
+        expressionLogicalOperator: [SyncBailHook],
+        program: [SyncBailHook],
+        hotAcceptCallback: [SyncBailHook],
+        hotAcceptWithoutCallback: [SyncBailHook] },
+     options: {},
+     sourceType: 'auto',
+     scope: undefined,
+     state: undefined,
+     comments: undefined },
+  generator: JavascriptGenerator {},
+  resource: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\minus.js',
+  matchResource: undefined,
+  loaders:
+   [ { options: [Object],
+       ident: 'ref--4-0',
+       loader:
+        'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js' } ],
+  error: null,
+  _sourceSize: null,
+  _buildHash: '627c6d72eaf2a587f5f4608cc4a14c63',
+  buildTimestamp: 1597215474818,
+  _cachedSources:
+   Map {
+     'javascript' => { source: [CachedSource],
+       hash: '9621e63ba1cdfb8fa6f8402f92599c47-' } },
+  lineToLine: false,
+  _lastSuccessfulBuildMeta: { exportsType: 'namespace', providedExports: [ 'default' ] },
+  _ast: null }
+file(0.bundle.js): (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
+
+/***/ "./src/minus.js":
+/*!**********************!*\
+  !*** ./src/minus.js ***!
+  \**********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return minus; });\nfunction minus(a, b) {\n  return a - b;\n}\n\n//# sourceURL=webpack:///./src/minus.js?");
+
+/***/ })
+
+}]);
+chunk1: Chunk {
+  id: 'main',
+  ids: [ 'main' ],
+  debugId: 1000,
+  name: 'main',
+  preventIntegration: false,
+  entryModule:
+   NormalModule {
+     dependencies:
+      [ [HarmonyCompatibilityDependency],
+        [HarmonyInitDependency],
+        [ConstDependency],
+        [HarmonyImportSideEffectDependency],
+        [ConstDependency],
+        [HarmonyImportSideEffectDependency],
+        [HarmonyImportSpecifierDependency],
+        [HarmonyImportSpecifierDependency] ],
+     blocks: [ [ImportDependenciesBlock] ],
+     variables: [],
+     type: 'javascript/auto',
+     context: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src',
+     debugId: 1000,
+     hash: 'b41a5d4403abee46f2b23adb6a20e823',
+     renderedHash: 'b41a5d4403abee46f2b2',
+     resolveOptions: {},
+     factoryMeta: {},
+     warnings: [],
+     errors: [],
+     buildMeta: { exportsType: 'namespace', providedExports: [] },
+     buildInfo:
+      { cacheable: true,
+        fileDependencies: [Set],
+        contextDependencies: Set {},
+        assets: undefined,
+        assetsInfo: undefined,
+        strict: true,
+        exportsArgument: '__webpack_exports__',
+        temporaryProvidedExports: false },
+     reasons: [ [ModuleReason] ],
+     _chunks:
+      SortableSet [Set] {
+        [Circular],
+        _sortFn: [Function: sortById],
+        _lastActiveSortFn: null,
+        _cache: undefined,
+        _cacheOrderIndependent: undefined },
+     id: './src/index.js',
+     index: 0,
+     index2: 2,
+     depth: 0,
+     issuer: null,
+     profile: undefined,
+     prefetched: false,
+     built: true,
+     used: null,
+     usedExports: null,
+     optimizationBailout: [],
+     _rewriteChunkInReasons: undefined,
+     useSourceMap: false,
+     _source:
+      OriginalSource {
+        _value:
+         "import {multiply} from './helper/add.js';\n\nimport {add1} from './add.js';\n\nimport('./minus.js').then(({default:minus}) => {\n  myLog(minus(4,1));\n})\n\nconst b = add1(1,1);\n\nconst c = multiply(1,2);\n\nmyLog(b,c);",
+        _name:
+         'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js' },
+     request:
+      'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+     userRequest: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+     rawRequest: './src/index.js',
+     binary: false,
+     parser:
+      Parser {
+        _pluginCompat: [SyncBailHook],
+        hooks: [Object],
+        options: {},
+        sourceType: 'auto',
+        scope: undefined,
+        state: undefined,
+        comments: undefined },
+     generator: JavascriptGenerator {},
+     resource: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+     matchResource: undefined,
+     loaders: [ [Object] ],
+     error: null,
+     _sourceSize: null,
+     _buildHash: '7283ca50d351f248edb831436502761a',
+     buildTimestamp: 1597215474761,
+     _cachedSources: Map { 'javascript' => [Object] },
+     lineToLine: false,
+     _lastSuccessfulBuildMeta: { exportsType: 'namespace', providedExports: [] },
+     _ast: null },
+  _modules:
+   SortableSet [Set] {
+     NormalModule {
+       dependencies: [Array],
+       blocks: [],
+       variables: [],
+       type: 'javascript/auto',
+       context: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src',
+       debugId: 1001,
+       hash: 'e595086b50d3d4d554036b80ae8e908d',
+       renderedHash: 'e595086b50d3d4d55403',
+       resolveOptions: {},
+       factoryMeta: {},
+       warnings: [],
+       errors: [],
+       buildMeta: [Object],
+       buildInfo: [Object],
+       reasons: [Array],
+       _chunks: [SortableSet],
+       id: './src/add.js',
+       index: 2,
+       index2: 1,
+       depth: 1,
+       issuer: [NormalModule],
+       profile: undefined,
+       prefetched: false,
+       built: true,
+       used: null,
+       usedExports: null,
+       optimizationBailout: [],
+       _rewriteChunkInReasons: undefined,
+       useSourceMap: false,
+       _source: [OriginalSource],
+       request:
+        'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\add.js',
+       userRequest: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\add.js',
+       rawRequest: './add.js',
+       binary: false,
+       parser: [Parser],
+       generator: JavascriptGenerator {},
+       resource: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\add.js',
+       matchResource: undefined,
+       loaders: [Array],
+       error: null,
+       _sourceSize: null,
+       _buildHash: 'afd7ddd8e2e65c662d2c11d13e0663a3',
+       buildTimestamp: 1597215474818,
+       _cachedSources: [Map],
+       lineToLine: false,
+       _lastSuccessfulBuildMeta: [Object],
+       _ast: null },
+     NormalModule {
+       dependencies: [Array],
+       blocks: [],
+       variables: [],
+       type: 'javascript/auto',
+       context: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\helper',
+       debugId: 1003,
+       hash: '6ac08fdba628dbde2aa7f39f44d748aa',
+       renderedHash: '6ac08fdba628dbde2aa7',
+       resolveOptions: {},
+       factoryMeta: {},
+       warnings: [],
+       errors: [],
+       buildMeta: [Object],
+       buildInfo: [Object],
+       reasons: [Array],
+       _chunks: [SortableSet],
+       id: './src/helper/add.js',
+       index: 1,
+       index2: 0,
+       depth: 1,
+       issuer: [NormalModule],
+       profile: undefined,
+       prefetched: false,
+       built: true,
+       used: null,
+       usedExports: null,
+       optimizationBailout: [],
+       _rewriteChunkInReasons: undefined,
+       useSourceMap: false,
+       _source: [OriginalSource],
+       request:
+        'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\helper\\add.js',
+       userRequest:
+        'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\helper\\add.js',
+       rawRequest: './helper/add.js',
+       binary: false,
+       parser: [Parser],
+       generator: JavascriptGenerator {},
+       resource:
+        'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\helper\\add.js',
+       matchResource: undefined,
+       loaders: [Array],
+       error: null,
+       _sourceSize: null,
+       _buildHash: 'ed0bd32d358ceb344dcbf0a1c9cd5c66',
+       buildTimestamp: 1597215474818,
+       _cachedSources: [Map],
+       lineToLine: false,
+       _lastSuccessfulBuildMeta: [Object],
+       _ast: null },
+     NormalModule {
+       dependencies: [Array],
+       blocks: [Array],
+       variables: [],
+       type: 'javascript/auto',
+       context: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src',
+       debugId: 1000,
+       hash: 'b41a5d4403abee46f2b23adb6a20e823',
+       renderedHash: 'b41a5d4403abee46f2b2',
+       resolveOptions: {},
+       factoryMeta: {},
+       warnings: [],
+       errors: [],
+       buildMeta: [Object],
+       buildInfo: [Object],
+       reasons: [Array],
+       _chunks: [SortableSet],
+       id: './src/index.js',
+       index: 0,
+       index2: 2,
+       depth: 0,
+       issuer: null,
+       profile: undefined,
+       prefetched: false,
+       built: true,
+       used: null,
+       usedExports: null,
+       optimizationBailout: [],
+       _rewriteChunkInReasons: undefined,
+       useSourceMap: false,
+       _source: [OriginalSource],
+       request:
+        'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+       userRequest: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+       rawRequest: './src/index.js',
+       binary: false,
+       parser: [Parser],
+       generator: JavascriptGenerator {},
+       resource: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+       matchResource: undefined,
+       loaders: [Array],
+       error: null,
+       _sourceSize: null,
+       _buildHash: '7283ca50d351f248edb831436502761a',
+       buildTimestamp: 1597215474761,
+       _cachedSources: [Map],
+       lineToLine: false,
+       _lastSuccessfulBuildMeta: [Object],
+       _ast: null },
+     _sortFn: [Function: sortByIdentifier],
+     _lastActiveSortFn: [Function: sortModuleById],
+     _cache: Map { [Function: getArray] => [Array] },
+     _cacheOrderIndependent: undefined },
+  filenameTemplate: undefined,
+  _groups:
+   SortableSet [Set] {
+     Entrypoint {
+       groupDebugId: 5000,
+       options: [Object],
+       _children: [SortableSet],
+       _parents: [SortableSet],
+       _blocks: [SortableSet],
+       chunks: [Array],
+       origins: [Array],
+       _moduleIndices: [Map],
+       _moduleIndices2: [Map],
+       runtimeChunk: [Circular] },
+     _sortFn: [Function: sortChunkGroupById],
+     _lastActiveSortFn: null,
+     _cache: undefined,
+     _cacheOrderIndependent: undefined },
+  files: [ 'bundle.js' ],
+  rendered: true,
+  hash: '948debe7c62ef35216190e232e2b5a90',
+  contentHash:
+   [Object: null prototype] { javascript: '25e411196722171f468c' },
+  renderedHash: '948debe7c62ef3521619',
+  chunkReason: undefined,
+  extraAsync: false,
+  removedModules: undefined }
+chunk1-module0: NormalModule {
+  dependencies:
+   [ HarmonyCompatibilityDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [Object],
+       originModule: [Circular] },
+     HarmonyInitDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [Object],
+       originModule: [Circular] },
+     ConstDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       expression: '',
+       range: [Array],
+       requireWebpackRequire: undefined },
+     HarmonyImportSideEffectDependency {
+       module: [NormalModule],
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       request: './helper/add.js',
+       userRequest: './helper/add.js',
+       redirectedModule: undefined,
+       originModule: [Circular],
+       sourceOrder: 1,
+       parserScope: [Object] },
+     HarmonyExportHeaderDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       range: [Array],
+       rangeStatement: [Array] },
+     HarmonyExportSpecifierDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       originModule: [Circular],
+       id: 'add1',
+       name: 'add1' },
+     HarmonyImportSpecifierDependency {
+       module: [NormalModule],
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       request: './helper/add.js',
+       userRequest: './helper/add.js',
+       redirectedModule: undefined,
+       originModule: [Circular],
+       sourceOrder: 1,
+       parserScope: [Object],
+       id: 'add',
+       redirectedId: undefined,
+       name: 'add',
+       range: [Array],
+       strictExportPresence: false,
+       namespaceObjectAsContext: false,
+       callArgs: [Array],
+       call: [Node],
+       directImport: true,
+       shorthand: undefined } ],
+  blocks: [],
+  variables: [],
+  type: 'javascript/auto',
+  context: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src',
+  debugId: 1001,
+  hash: 'e595086b50d3d4d554036b80ae8e908d',
+  renderedHash: 'e595086b50d3d4d55403',
+  resolveOptions: {},
+  factoryMeta: {},
+  warnings: [],
+  errors: [],
+  buildMeta: { exportsType: 'namespace', providedExports: [ 'add1' ] },
+  buildInfo:
+   { cacheable: true,
+     fileDependencies:
+      Set { 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\add.js' },
+     contextDependencies: Set {},
+     assets: undefined,
+     assetsInfo: undefined,
+     strict: true,
+     exportsArgument: '__webpack_exports__',
+     temporaryProvidedExports: false },
+  reasons:
+   [ ModuleReason {
+       module: [NormalModule],
+       dependency: [HarmonyImportSideEffectDependency],
+       explanation: undefined,
+       _chunks: null },
+     ModuleReason {
+       module: [NormalModule],
+       dependency: [HarmonyImportSpecifierDependency],
+       explanation: undefined,
+       _chunks: null } ],
+  _chunks:
+   SortableSet [Set] {
+     Chunk {
+       id: 'main',
+       ids: [Array],
+       debugId: 1000,
+       name: 'main',
+       preventIntegration: false,
+       entryModule: [NormalModule],
+       _modules: [SortableSet],
+       filenameTemplate: undefined,
+       _groups: [SortableSet],
+       files: [Array],
+       rendered: true,
+       hash: '948debe7c62ef35216190e232e2b5a90',
+       contentHash: [Object],
+       renderedHash: '948debe7c62ef3521619',
+       chunkReason: undefined,
+       extraAsync: false,
+       removedModules: undefined },
+     _sortFn: [Function: sortById],
+     _lastActiveSortFn: null,
+     _cache: undefined,
+     _cacheOrderIndependent: undefined },
+  id: './src/add.js',
+  index: 2,
+  index2: 1,
+  depth: 1,
+  issuer:
+   NormalModule {
+     dependencies:
+      [ [HarmonyCompatibilityDependency],
+        [HarmonyInitDependency],
+        [ConstDependency],
+        [HarmonyImportSideEffectDependency],
+        [ConstDependency],
+        [HarmonyImportSideEffectDependency],
+        [HarmonyImportSpecifierDependency],
+        [HarmonyImportSpecifierDependency] ],
+     blocks: [ [ImportDependenciesBlock] ],
+     variables: [],
+     type: 'javascript/auto',
+     context: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src',
+     debugId: 1000,
+     hash: 'b41a5d4403abee46f2b23adb6a20e823',
+     renderedHash: 'b41a5d4403abee46f2b2',
+     resolveOptions: {},
+     factoryMeta: {},
+     warnings: [],
+     errors: [],
+     buildMeta: { exportsType: 'namespace', providedExports: [] },
+     buildInfo:
+      { cacheable: true,
+        fileDependencies: [Set],
+        contextDependencies: Set {},
+        assets: undefined,
+        assetsInfo: undefined,
+        strict: true,
+        exportsArgument: '__webpack_exports__',
+        temporaryProvidedExports: false },
+     reasons: [ [ModuleReason] ],
+     _chunks:
+      SortableSet [Set] {
+        [Chunk],
+        _sortFn: [Function: sortById],
+        _lastActiveSortFn: null,
+        _cache: undefined,
+        _cacheOrderIndependent: undefined },
+     id: './src/index.js',
+     index: 0,
+     index2: 2,
+     depth: 0,
+     issuer: null,
+     profile: undefined,
+     prefetched: false,
+     built: true,
+     used: null,
+     usedExports: null,
+     optimizationBailout: [],
+     _rewriteChunkInReasons: undefined,
+     useSourceMap: false,
+     _source:
+      OriginalSource {
+        _value:
+         "import {multiply} from './helper/add.js';\n\nimport {add1} from './add.js';\n\nimport('./minus.js').then(({default:minus}) => {\n  myLog(minus(4,1));\n})\n\nconst b = add1(1,1);\n\nconst c = multiply(1,2);\n\nmyLog(b,c);",
+        _name:
+         'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js' },
+     request:
+      'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+     userRequest: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+     rawRequest: './src/index.js',
+     binary: false,
+     parser:
+      Parser {
+        _pluginCompat: [SyncBailHook],
+        hooks: [Object],
+        options: {},
+        sourceType: 'auto',
+        scope: undefined,
+        state: undefined,
+        comments: undefined },
+     generator: JavascriptGenerator {},
+     resource: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+     matchResource: undefined,
+     loaders: [ [Object] ],
+     error: null,
+     _sourceSize: null,
+     _buildHash: '7283ca50d351f248edb831436502761a',
+     buildTimestamp: 1597215474761,
+     _cachedSources: Map { 'javascript' => [Object] },
+     lineToLine: false,
+     _lastSuccessfulBuildMeta: { exportsType: 'namespace', providedExports: [] },
+     _ast: null },
+  profile: undefined,
+  prefetched: false,
+  built: true,
+  used: null,
+  usedExports: null,
+  optimizationBailout: [],
+  _rewriteChunkInReasons: undefined,
+  useSourceMap: false,
+  _source:
+   OriginalSource {
+     _value:
+      "\nimport {add} from './helper/add.js';\n\nexport const add1 = (a, b) => {\n  return add(a,b);\n}",
+     _name:
+      'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\add.js' },
+  request:
+   'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\add.js',
+  userRequest: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\add.js',
+  rawRequest: './add.js',
+  binary: false,
+  parser:
+   Parser {
+     _pluginCompat:
+      SyncBailHook {
+        _args: [Array],
+        taps: [Array],
+        interceptors: [],
+        call: [Function: lazyCompileHook],
+        promise: [Function: lazyCompileHook],
+        callAsync: [Function: lazyCompileHook],
+        _x: undefined },
+     hooks:
+      { evaluateTypeof: [HookMap],
+        evaluate: [HookMap],
+        evaluateIdentifier: [HookMap],
+        evaluateDefinedIdentifier: [HookMap],
+        evaluateCallExpressionMember: [HookMap],
+        statement: [SyncBailHook],
+        statementIf: [SyncBailHook],
+        label: [HookMap],
+        import: [SyncBailHook],
+        importSpecifier: [SyncBailHook],
+        export: [SyncBailHook],
+        exportImport: [SyncBailHook],
+        exportDeclaration: [SyncBailHook],
+        exportExpression: [SyncBailHook],
+        exportSpecifier: [SyncBailHook],
+        exportImportSpecifier: [SyncBailHook],
+        varDeclaration: [HookMap],
+        varDeclarationLet: [HookMap],
+        varDeclarationConst: [HookMap],
+        varDeclarationVar: [HookMap],
+        canRename: [HookMap],
+        rename: [HookMap],
+        assigned: [HookMap],
+        assign: [HookMap],
+        typeof: [HookMap],
+        importCall: [SyncBailHook],
+        call: [HookMap],
+        callAnyMember: [HookMap],
+        new: [HookMap],
+        expression: [HookMap],
+        expressionAnyMember: [HookMap],
+        expressionConditionalOperator: [SyncBailHook],
+        expressionLogicalOperator: [SyncBailHook],
+        program: [SyncBailHook],
+        hotAcceptCallback: [SyncBailHook],
+        hotAcceptWithoutCallback: [SyncBailHook] },
+     options: {},
+     sourceType: 'auto',
+     scope: undefined,
+     state: undefined,
+     comments: undefined },
+  generator: JavascriptGenerator {},
+  resource: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\add.js',
+  matchResource: undefined,
+  loaders:
+   [ { options: [Object],
+       ident: 'ref--4-0',
+       loader:
+        'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js' } ],
+  error: null,
+  _sourceSize: null,
+  _buildHash: 'afd7ddd8e2e65c662d2c11d13e0663a3',
+  buildTimestamp: 1597215474818,
+  _cachedSources:
+   Map {
+     'javascript' => { source: [CachedSource],
+       hash: 'e595086b50d3d4d554036b80ae8e908d-' } },
+  lineToLine: false,
+  _lastSuccessfulBuildMeta: { exportsType: 'namespace', providedExports: [ 'add1' ] },
+  _ast: null }
+chunk1-module1: NormalModule {
+  dependencies:
+   [ HarmonyCompatibilityDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [Object],
+       originModule: [Circular] },
+     HarmonyInitDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [Object],
+       originModule: [Circular] },
+     HarmonyExportHeaderDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       range: [Array],
+       rangeStatement: [Array] },
+     HarmonyExportSpecifierDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       originModule: [Circular],
+       id: 'add',
+       name: 'add' },
+     HarmonyExportHeaderDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       range: [Array],
+       rangeStatement: [Array] },
+     HarmonyExportSpecifierDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       originModule: [Circular],
+       id: 'multiply',
+       name: 'multiply' } ],
+  blocks: [],
+  variables: [],
+  type: 'javascript/auto',
+  context: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\helper',
+  debugId: 1003,
+  hash: '6ac08fdba628dbde2aa7f39f44d748aa',
+  renderedHash: '6ac08fdba628dbde2aa7',
+  resolveOptions: {},
+  factoryMeta: {},
+  warnings: [],
+  errors: [],
+  buildMeta:
+   { exportsType: 'namespace',
+     providedExports: [ 'add', 'multiply' ] },
+  buildInfo:
+   { cacheable: true,
+     fileDependencies:
+      Set {
+        'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\helper\\add.js' },
+     contextDependencies: Set {},
+     assets: undefined,
+     assetsInfo: undefined,
+     strict: true,
+     exportsArgument: '__webpack_exports__',
+     temporaryProvidedExports: false },
+  reasons:
+   [ ModuleReason {
+       module: [NormalModule],
+       dependency: [HarmonyImportSideEffectDependency],
+       explanation: undefined,
+       _chunks: null },
+     ModuleReason {
+       module: [NormalModule],
+       dependency: [HarmonyImportSpecifierDependency],
+       explanation: undefined,
+       _chunks: null },
+     ModuleReason {
+       module: [NormalModule],
+       dependency: [HarmonyImportSideEffectDependency],
+       explanation: undefined,
+       _chunks: null },
+     ModuleReason {
+       module: [NormalModule],
+       dependency: [HarmonyImportSpecifierDependency],
+       explanation: undefined,
+       _chunks: null } ],
+  _chunks:
+   SortableSet [Set] {
+     Chunk {
+       id: 'main',
+       ids: [Array],
+       debugId: 1000,
+       name: 'main',
+       preventIntegration: false,
+       entryModule: [NormalModule],
+       _modules: [SortableSet],
+       filenameTemplate: undefined,
+       _groups: [SortableSet],
+       files: [Array],
+       rendered: true,
+       hash: '948debe7c62ef35216190e232e2b5a90',
+       contentHash: [Object],
+       renderedHash: '948debe7c62ef3521619',
+       chunkReason: undefined,
+       extraAsync: false,
+       removedModules: undefined },
+     _sortFn: [Function: sortById],
+     _lastActiveSortFn: null,
+     _cache: undefined,
+     _cacheOrderIndependent: undefined },
+  id: './src/helper/add.js',
+  index: 1,
+  index2: 0,
+  depth: 1,
+  issuer:
+   NormalModule {
+     dependencies:
+      [ [HarmonyCompatibilityDependency],
+        [HarmonyInitDependency],
+        [ConstDependency],
+        [HarmonyImportSideEffectDependency],
+        [ConstDependency],
+        [HarmonyImportSideEffectDependency],
+        [HarmonyImportSpecifierDependency],
+        [HarmonyImportSpecifierDependency] ],
+     blocks: [ [ImportDependenciesBlock] ],
+     variables: [],
+     type: 'javascript/auto',
+     context: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src',
+     debugId: 1000,
+     hash: 'b41a5d4403abee46f2b23adb6a20e823',
+     renderedHash: 'b41a5d4403abee46f2b2',
+     resolveOptions: {},
+     factoryMeta: {},
+     warnings: [],
+     errors: [],
+     buildMeta: { exportsType: 'namespace', providedExports: [] },
+     buildInfo:
+      { cacheable: true,
+        fileDependencies: [Set],
+        contextDependencies: Set {},
+        assets: undefined,
+        assetsInfo: undefined,
+        strict: true,
+        exportsArgument: '__webpack_exports__',
+        temporaryProvidedExports: false },
+     reasons: [ [ModuleReason] ],
+     _chunks:
+      SortableSet [Set] {
+        [Chunk],
+        _sortFn: [Function: sortById],
+        _lastActiveSortFn: null,
+        _cache: undefined,
+        _cacheOrderIndependent: undefined },
+     id: './src/index.js',
+     index: 0,
+     index2: 2,
+     depth: 0,
+     issuer: null,
+     profile: undefined,
+     prefetched: false,
+     built: true,
+     used: null,
+     usedExports: null,
+     optimizationBailout: [],
+     _rewriteChunkInReasons: undefined,
+     useSourceMap: false,
+     _source:
+      OriginalSource {
+        _value:
+         "import {multiply} from './helper/add.js';\n\nimport {add1} from './add.js';\n\nimport('./minus.js').then(({default:minus}) => {\n  myLog(minus(4,1));\n})\n\nconst b = add1(1,1);\n\nconst c = multiply(1,2);\n\nmyLog(b,c);",
+        _name:
+         'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js' },
+     request:
+      'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+     userRequest: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+     rawRequest: './src/index.js',
+     binary: false,
+     parser:
+      Parser {
+        _pluginCompat: [SyncBailHook],
+        hooks: [Object],
+        options: {},
+        sourceType: 'auto',
+        scope: undefined,
+        state: undefined,
+        comments: undefined },
+     generator: JavascriptGenerator {},
+     resource: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+     matchResource: undefined,
+     loaders: [ [Object] ],
+     error: null,
+     _sourceSize: null,
+     _buildHash: '7283ca50d351f248edb831436502761a',
+     buildTimestamp: 1597215474761,
+     _cachedSources: Map { 'javascript' => [Object] },
+     lineToLine: false,
+     _lastSuccessfulBuildMeta: { exportsType: 'namespace', providedExports: [] },
+     _ast: null },
+  profile: undefined,
+  prefetched: false,
+  built: true,
+  used: null,
+  usedExports: null,
+  optimizationBailout: [],
+  _rewriteChunkInReasons: undefined,
+  useSourceMap: false,
+  _source:
+   OriginalSource {
+     _value:
+      'export const add = (a, b) => {\n  return a + b;\n}\n\nexport const multiply = (a, b) => {\n  return a * b;\n}',
+     _name:
+      'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\helper\\add.js' },
+  request:
+   'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\helper\\add.js',
+  userRequest:
+   'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\helper\\add.js',
+  rawRequest: './helper/add.js',
+  binary: false,
+  parser:
+   Parser {
+     _pluginCompat:
+      SyncBailHook {
+        _args: [Array],
+        taps: [Array],
+        interceptors: [],
+        call: [Function: lazyCompileHook],
+        promise: [Function: lazyCompileHook],
+        callAsync: [Function: lazyCompileHook],
+        _x: undefined },
+     hooks:
+      { evaluateTypeof: [HookMap],
+        evaluate: [HookMap],
+        evaluateIdentifier: [HookMap],
+        evaluateDefinedIdentifier: [HookMap],
+        evaluateCallExpressionMember: [HookMap],
+        statement: [SyncBailHook],
+        statementIf: [SyncBailHook],
+        label: [HookMap],
+        import: [SyncBailHook],
+        importSpecifier: [SyncBailHook],
+        export: [SyncBailHook],
+        exportImport: [SyncBailHook],
+        exportDeclaration: [SyncBailHook],
+        exportExpression: [SyncBailHook],
+        exportSpecifier: [SyncBailHook],
+        exportImportSpecifier: [SyncBailHook],
+        varDeclaration: [HookMap],
+        varDeclarationLet: [HookMap],
+        varDeclarationConst: [HookMap],
+        varDeclarationVar: [HookMap],
+        canRename: [HookMap],
+        rename: [HookMap],
+        assigned: [HookMap],
+        assign: [HookMap],
+        typeof: [HookMap],
+        importCall: [SyncBailHook],
+        call: [HookMap],
+        callAnyMember: [HookMap],
+        new: [HookMap],
+        expression: [HookMap],
+        expressionAnyMember: [HookMap],
+        expressionConditionalOperator: [SyncBailHook],
+        expressionLogicalOperator: [SyncBailHook],
+        program: [SyncBailHook],
+        hotAcceptCallback: [SyncBailHook],
+        hotAcceptWithoutCallback: [SyncBailHook] },
+     options: {},
+     sourceType: 'auto',
+     scope: undefined,
+     state: undefined,
+     comments: undefined },
+  generator: JavascriptGenerator {},
+  resource:
+   'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\helper\\add.js',
+  matchResource: undefined,
+  loaders:
+   [ { options: [Object],
+       ident: 'ref--4-0',
+       loader:
+        'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js' } ],
+  error: null,
+  _sourceSize: null,
+  _buildHash: 'ed0bd32d358ceb344dcbf0a1c9cd5c66',
+  buildTimestamp: 1597215474818,
+  _cachedSources:
+   Map {
+     'javascript' => { source: [CachedSource],
+       hash: '6ac08fdba628dbde2aa7f39f44d748aa-' } },
+  lineToLine: false,
+  _lastSuccessfulBuildMeta:
+   { exportsType: 'namespace',
+     providedExports: [ 'add', 'multiply' ] },
+  _ast: null }
+chunk1-module2: NormalModule {
+  dependencies:
+   [ HarmonyCompatibilityDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [Object],
+       originModule: [Circular] },
+     HarmonyInitDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [Object],
+       originModule: [Circular] },
+     ConstDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       expression: '',
+       range: [Array],
+       requireWebpackRequire: undefined },
+     HarmonyImportSideEffectDependency {
+       module: [NormalModule],
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       request: './helper/add.js',
+       userRequest: './helper/add.js',
+       redirectedModule: undefined,
+       originModule: [Circular],
+       sourceOrder: 1,
+       parserScope: [Object] },
+     ConstDependency {
+       module: null,
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       expression: '',
+       range: [Array],
+       requireWebpackRequire: undefined },
+     HarmonyImportSideEffectDependency {
+       module: [NormalModule],
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       request: './add.js',
+       userRequest: './add.js',
+       redirectedModule: undefined,
+       originModule: [Circular],
+       sourceOrder: 2,
+       parserScope: [Object] },
+     HarmonyImportSpecifierDependency {
+       module: [NormalModule],
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       request: './add.js',
+       userRequest: './add.js',
+       redirectedModule: undefined,
+       originModule: [Circular],
+       sourceOrder: 2,
+       parserScope: [Object],
+       id: 'add1',
+       redirectedId: undefined,
+       name: 'add1',
+       range: [Array],
+       strictExportPresence: false,
+       namespaceObjectAsContext: false,
+       callArgs: [Array],
+       call: [Node],
+       directImport: true,
+       shorthand: undefined },
+     HarmonyImportSpecifierDependency {
+       module: [NormalModule],
+       weak: false,
+       optional: false,
+       loc: [SourceLocation],
+       request: './helper/add.js',
+       userRequest: './helper/add.js',
+       redirectedModule: undefined,
+       originModule: [Circular],
+       sourceOrder: 1,
+       parserScope: [Object],
+       id: 'multiply',
+       redirectedId: undefined,
+       name: 'multiply',
+       range: [Array],
+       strictExportPresence: false,
+       namespaceObjectAsContext: false,
+       callArgs: [Array],
+       call: [Node],
+       directImport: true,
+       shorthand: undefined } ],
+  blocks:
+   [ ImportDependenciesBlock {
+       dependencies: [Array],
+       blocks: [],
+       variables: [],
+       groupOptions: [Object],
+       chunkGroup: [ChunkGroup],
+       module: [Circular],
+       loc: [SourceLocation],
+       request: './minus.js',
+       parent: [Circular],
+       range: [Array] } ],
+  variables: [],
+  type: 'javascript/auto',
+  context: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src',
+  debugId: 1000,
+  hash: 'b41a5d4403abee46f2b23adb6a20e823',
+  renderedHash: 'b41a5d4403abee46f2b2',
+  resolveOptions: {},
+  factoryMeta: {},
+  warnings: [],
+  errors: [],
+  buildMeta: { exportsType: 'namespace', providedExports: [] },
+  buildInfo:
+   { cacheable: true,
+     fileDependencies:
+      Set { 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js' },
+     contextDependencies: Set {},
+     assets: undefined,
+     assetsInfo: undefined,
+     strict: true,
+     exportsArgument: '__webpack_exports__',
+     temporaryProvidedExports: false },
+  reasons:
+   [ ModuleReason {
+       module: null,
+       dependency: [SingleEntryDependency],
+       explanation: undefined,
+       _chunks: null } ],
+  _chunks:
+   SortableSet [Set] {
+     Chunk {
+       id: 'main',
+       ids: [Array],
+       debugId: 1000,
+       name: 'main',
+       preventIntegration: false,
+       entryModule: [Circular],
+       _modules: [SortableSet],
+       filenameTemplate: undefined,
+       _groups: [SortableSet],
+       files: [Array],
+       rendered: true,
+       hash: '948debe7c62ef35216190e232e2b5a90',
+       contentHash: [Object],
+       renderedHash: '948debe7c62ef3521619',
+       chunkReason: undefined,
+       extraAsync: false,
+       removedModules: undefined },
+     _sortFn: [Function: sortById],
+     _lastActiveSortFn: null,
+     _cache: undefined,
+     _cacheOrderIndependent: undefined },
+  id: './src/index.js',
+  index: 0,
+  index2: 2,
+  depth: 0,
+  issuer: null,
+  profile: undefined,
+  prefetched: false,
+  built: true,
+  used: null,
+  usedExports: null,
+  optimizationBailout: [],
+  _rewriteChunkInReasons: undefined,
+  useSourceMap: false,
+  _source:
+   OriginalSource {
+     _value:
+      "import {multiply} from './helper/add.js';\n\nimport {add1} from './add.js';\n\nimport('./minus.js').then(({default:minus}) => {\n  myLog(minus(4,1));\n})\n\nconst b = add1(1,1);\n\nconst c = multiply(1,2);\n\nmyLog(b,c);",
+     _name:
+      'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js' },
+  request:
+   'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js??ref--4-0!C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+  userRequest: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+  rawRequest: './src/index.js',
+  binary: false,
+  parser:
+   Parser {
+     _pluginCompat:
+      SyncBailHook {
+        _args: [Array],
+        taps: [Array],
+        interceptors: [],
+        call: [Function: lazyCompileHook],
+        promise: [Function: lazyCompileHook],
+        callAsync: [Function: lazyCompileHook],
+        _x: undefined },
+     hooks:
+      { evaluateTypeof: [HookMap],
+        evaluate: [HookMap],
+        evaluateIdentifier: [HookMap],
+        evaluateDefinedIdentifier: [HookMap],
+        evaluateCallExpressionMember: [HookMap],
+        statement: [SyncBailHook],
+        statementIf: [SyncBailHook],
+        label: [HookMap],
+        import: [SyncBailHook],
+        importSpecifier: [SyncBailHook],
+        export: [SyncBailHook],
+        exportImport: [SyncBailHook],
+        exportDeclaration: [SyncBailHook],
+        exportExpression: [SyncBailHook],
+        exportSpecifier: [SyncBailHook],
+        exportImportSpecifier: [SyncBailHook],
+        varDeclaration: [HookMap],
+        varDeclarationLet: [HookMap],
+        varDeclarationConst: [HookMap],
+        varDeclarationVar: [HookMap],
+        canRename: [HookMap],
+        rename: [HookMap],
+        assigned: [HookMap],
+        assign: [HookMap],
+        typeof: [HookMap],
+        importCall: [SyncBailHook],
+        call: [HookMap],
+        callAnyMember: [HookMap],
+        new: [HookMap],
+        expression: [HookMap],
+        expressionAnyMember: [HookMap],
+        expressionConditionalOperator: [SyncBailHook],
+        expressionLogicalOperator: [SyncBailHook],
+        program: [SyncBailHook],
+        hotAcceptCallback: [SyncBailHook],
+        hotAcceptWithoutCallback: [SyncBailHook] },
+     options: {},
+     sourceType: 'auto',
+     scope: undefined,
+     state: undefined,
+     comments: undefined },
+  generator: JavascriptGenerator {},
+  resource: 'C:\\Users\\zhoujiawei\\Desktop\\webpack\\src\\index.js',
+  matchResource: undefined,
+  loaders:
+   [ { options: [Object],
+       ident: 'ref--4-0',
+       loader:
+        'C:\\Users\\zhoujiawei\\Desktop\\webpack\\loaders\\myLoader.js' } ],
+  error: null,
+  _sourceSize: null,
+  _buildHash: '7283ca50d351f248edb831436502761a',
+  buildTimestamp: 1597215474761,
+  _cachedSources:
+   Map {
+     'javascript' => { source: [CachedSource],
+       hash: 'b41a5d4403abee46f2b23adb6a20e823-' } },
+  lineToLine: false,
+  _lastSuccessfulBuildMeta: { exportsType: 'namespace', providedExports: [] },
+  _ast: null }
+file(bundle.js): /******/ (function(modules) { // webpackBootstrap
+/******/ 	// install a JSONP callback for chunk loading
+/******/ 	function webpackJsonpCallback(data) {
+/******/ 		var chunkIds = data[0];
+/******/ 		var moreModules = data[1];
+/******/
+/******/
+/******/ 		// add "moreModules" to the modules object,
+/******/ 		// then flag all "chunkIds" as loaded and fire callback
+/******/ 		var moduleId, chunkId, i = 0, resolves = [];
+/******/ 		for(;i < chunkIds.length; i++) {
+/******/ 			chunkId = chunkIds[i];
+/******/ 			if(Object.prototype.hasOwnProperty.call(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 				resolves.push(installedChunks[chunkId][0]);
+/******/ 			}
+/******/ 			installedChunks[chunkId] = 0;
+/******/ 		}
+/******/ 		for(moduleId in moreModules) {
+/******/ 			if(Object.prototype.hasOwnProperty.call(moreModules, moduleId)) {
+/******/ 				modules[moduleId] = moreModules[moduleId];
+/******/ 			}
+/******/ 		}
+/******/ 		if(parentJsonpFunction) parentJsonpFunction(data);
+/******/
+/******/ 		while(resolves.length) {
+/******/ 			resolves.shift()();
+/******/ 		}
+/******/
+/******/ 	};
+/******/
+/******/
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// object to store loaded and loading chunks
+/******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 	// Promise = chunk loading, 0 = chunk loaded
+/******/ 	var installedChunks = {
+/******/ 		"main": 0
+/******/ 	};
+/******/
+/******/
+/******/
+/******/ 	// script path function
+/******/ 	function jsonpScriptSrc(chunkId) {
+/******/ 		return __webpack_require__.p + "" + ({}[chunkId]||chunkId) + ".bundle.js"
+/******/ 	}
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/ 	// This file contains only the entry chunk.
+/******/ 	// The chunk loading function for additional chunks
+/******/ 	__webpack_require__.e = function requireEnsure(chunkId) {
+/******/ 		var promises = [];
+/******/
+/******/
+/******/ 		// JSONP chunk loading for javascript
+/******/
+/******/ 		var installedChunkData = installedChunks[chunkId];
+/******/ 		if(installedChunkData !== 0) { // 0 means "already installed".
+/******/
+/******/ 			// a Promise means "currently loading".
+/******/ 			if(installedChunkData) {
+/******/ 				promises.push(installedChunkData[2]);
+/******/ 			} else {
+/******/ 				// setup Promise in chunk cache
+/******/ 				var promise = new Promise(function(resolve, reject) {
+/******/ 					installedChunkData = installedChunks[chunkId] = [resolve, reject];
+/******/ 				});
+/******/ 				promises.push(installedChunkData[2] = promise);
+/******/
+/******/ 				// start chunk loading
+/******/ 				var script = document.createElement('script');
+/******/ 				var onScriptComplete;
+/******/
+/******/ 				script.charset = 'utf-8';
+/******/ 				script.timeout = 120;
+/******/ 				if (__webpack_require__.nc) {
+/******/ 					script.setAttribute("nonce", __webpack_require__.nc);
+/******/ 				}
+/******/ 				script.src = jsonpScriptSrc(chunkId);
+/******/
+/******/ 				// create error before stack unwound to get useful stacktrace later
+/******/ 				var error = new Error();
+/******/ 				onScriptComplete = function (event) {
+/******/ 					// avoid mem leaks in IE.
+/******/ 					script.onerror = script.onload = null;
+/******/ 					clearTimeout(timeout);
+/******/ 					var chunk = installedChunks[chunkId];
+/******/ 					if(chunk !== 0) {
+/******/ 						if(chunk) {
+/******/ 							var errorType = event && (event.type === 'load' ? 'missing' : event.type);
+/******/ 							var realSrc = event && event.target && event.target.src;
+/******/ 							error.message = 'Loading chunk ' + chunkId + ' failed.\n(' + errorType + ': ' + realSrc + ')';
+/******/ 							error.name = 'ChunkLoadError';
+/******/ 							error.type = errorType;
+/******/ 							error.request = realSrc;
+/******/ 							chunk[1](error);
+/******/ 						}
+/******/ 						installedChunks[chunkId] = undefined;
+/******/ 					}
+/******/ 				};
+/******/ 				var timeout = setTimeout(function(){
+/******/ 					onScriptComplete({ type: 'timeout', target: script });
+/******/ 				}, 120000);
+/******/ 				script.onerror = script.onload = onScriptComplete;
+/******/ 				document.head.appendChild(script);
+/******/ 			}
+/******/ 		}
+/******/ 		return Promise.all(promises);
+/******/ 	};
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "./dist/";
+/******/
+/******/ 	// on error function for async loading
+/******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
+/******/
+/******/ 	var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
+/******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
+/******/ 	jsonpArray.push = webpackJsonpCallback;
+/******/ 	jsonpArray = jsonpArray.slice();
+/******/ 	for(var i = 0; i < jsonpArray.length; i++) webpackJsonpCallback(jsonpArray[i]);
+/******/ 	var parentJsonpFunction = oldJsonpFunction;
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "./src/add.js":
+/*!********************!*\
+  !*** ./src/add.js ***!
+  \********************/
+/*! exports provided: add1 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"add1\", function() { return add1; });\n/* harmony import */ var _helper_add_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helper/add.js */ \"./src/helper/add.js\");\n\n\n\nconst add1 = (a, b) => {\n  return Object(_helper_add_js__WEBPACK_IMPORTED_MODULE_0__[\"add\"])(a,b);\n}\n\n//# sourceURL=webpack:///./src/add.js?");
+
+/***/ }),
+
+/***/ "./src/helper/add.js":
+/*!***************************!*\
+  !*** ./src/helper/add.js ***!
+  \***************************/
+/*! exports provided: add, multiply */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"add\", function() { return add; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"multiply\", function() { return multiply; });\nconst add = (a, b) => {\n  return a + b;\n}\n\nconst multiply = (a, b) => {\n  return a * b;\n}\n\n//# sourceURL=webpack:///./src/helper/add.js?");
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _helper_add_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helper/add.js */ \"./src/helper/add.js\");\n/* harmony import */ var _add_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./add.js */ \"./src/add.js\");\n\n\n\n\n__webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./minus.js */ \"./src/minus.js\")).then(({default:minus}) => {\n  myLog(minus(4,1));\n})\n\nconst b = Object(_add_js__WEBPACK_IMPORTED_MODULE_1__[\"add1\"])(1,1);\n\nconst c = Object(_helper_add_js__WEBPACK_IMPORTED_MODULE_0__[\"multiply\"])(1,2);\n\nmyLog(b,c);\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ })
+
+/******/ });
